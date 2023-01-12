@@ -2,7 +2,6 @@ from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import LogInfo
 
-actions
 def generate_launch_description():	#function to run the Nodes
     return LaunchDescription([
         LogInfo(msg=['Running a turtlesim moving file with a joystick!']),
